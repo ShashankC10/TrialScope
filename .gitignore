@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+._*
+
+# Xcode build output and user settings
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.xcresult/
+*.xcarchive/
+*.ipa
+*.dSYM/
+*.dSYM.zip
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.p12
+*.mobileprovision
+*.provisionprofile
+
+# Editor and Python caches
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]

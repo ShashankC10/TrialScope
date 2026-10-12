@@ -1,0 +1,72 @@
+[
+  {
+    "file": "01-discover.png",
+    "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774726.722,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "02-search-results.png",
+    "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774731.365,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "03-study-details.png",
+    "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774733.393,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "04-saved-studies.png",
+    "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774744.014,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "05-saved-notes.png",
+    "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774747.622,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "06-filter-validation.png",
+    "test": "TrialScopeUITests/testFiltersValidateAge()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774698.625,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "07-recruiting-filter.png",
+    "test": "TrialScopeUITests/testFiltersValidateAge()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774702.834,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "08-empty-results.png",
+    "test": "TrialScopeUITests/testNoResultsAndReset()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774715.217,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "09-service-error.png",
+    "test": "TrialScopeUITests/testFailureAndRecovery()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774676.257,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "10-recovered-results.png",
+    "test": "TrialScopeUITests/testFailureAndRecovery()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791774687.912,
+    "source": "Unmodified XCTest screenshot attachment"
+  }
+]
