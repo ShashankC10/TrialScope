@@ -2,6 +2,11 @@ import Foundation
 
 public protocol TrialService: Sendable {
     func search(_ request: SearchRequest, offset: Int, limit: Int) async throws -> SearchPage
+    func detail(for trial: Trial) async throws -> Trial
+}
+
+public extension TrialService {
+    func detail(for trial: Trial) async throws -> Trial { trial }
 }
 
 public enum DemoCatalog {
@@ -9,7 +14,7 @@ public enum DemoCatalog {
         guard let url = Bundle.module.url(forResource: "trials", withExtension: "json") else {
             throw TrialServiceError.invalidFixture
         }
-        let trials = try JSONDecoder().decode([Trial].self, from: Data(contentsOf: url))
+        let trials = try JSONDecoder().decode([TrialDetailDTO].self, from: Data(contentsOf: url)).map { $0.trial() }
         guard !trials.isEmpty, Set(trials.map(\.id)).count == trials.count else {
             throw TrialServiceError.invalidFixture
         }

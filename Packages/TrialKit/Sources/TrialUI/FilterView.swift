@@ -22,14 +22,14 @@ struct FilterView: View {
                 Section("Study phase") {
                     Picker("Phase", selection: $draft.phase) {
                         Text("Any phase").tag(Optional<TrialPhase>.none)
-                        ForEach(TrialPhase.allCases, id: \.self) { Text($0.rawValue).tag(Optional($0)) }
+                        ForEach(TrialPhase.allCases.filter { $0 != .unknown }, id: \.self) { Text($0.rawValue).tag(Optional($0)) }
                     }
                 }
                 Section {
                     TextField("Age in years (optional)", text: $ageText).accessibilityIdentifier("ageField")
                     if !validAge { Text("Enter a whole number from 0 to 120.").font(.caption).foregroundStyle(.red) }
                 } header: { Text("Age range") } footer: {
-                    Text("Filters the study’s listed age range only. Age stays in this search session and is not saved.")
+                    Text("Filters the study’s listed age range only. In API mode, age is sent to the server. Observational narrows only the returned top-20 results; it is not a server-wide filter.")
                 }
                 Section { Button("Reset filters") { draft = SearchRequest(); ageText = "" } }
             }

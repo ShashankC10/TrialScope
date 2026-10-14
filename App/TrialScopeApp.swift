@@ -12,9 +12,9 @@ struct TrialScopeApp: App {
             switch startup {
             case .success(let dependencies):
                 TrialScopeRoot(service: dependencies.service).modelContainer(dependencies.container)
-            case .failure:
+            case .failure(let error):
                 ContentUnavailableView("TrialScope couldn’t start", systemImage: "externaldrive.badge.exclamationmark",
-                                       description: Text("The local catalog or saved data couldn’t be opened. Close and reopen the app. Your saved data has not been deleted."))
+                                       description: Text(error.localizedDescription))
             }
         }
     }
@@ -22,10 +22,14 @@ struct TrialScopeApp: App {
 
 @MainActor
 private struct AppDependencies {
-    let service: MockTrialService
+    let service: any TrialService
     let container: ModelContainer
     init() throws {
-        service = MockTrialService(trials: try DemoCatalog.load())
+        switch try ServiceConfiguration.resolve(environment: ProcessInfo.processInfo.environment,
+                                                arguments: ProcessInfo.processInfo.arguments) {
+        case .mock: service = MockTrialService(trials: try DemoCatalog.load())
+        case .api(let url): service = APITrialService(baseURL: url)
+        }
         // UI tests use a disposable store. Normal launches persist locally.
         container = try TrialStore.container(inMemory: ProcessInfo.processInfo.arguments.contains("--uitesting"))
     }

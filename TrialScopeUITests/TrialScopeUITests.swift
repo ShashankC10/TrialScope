@@ -24,6 +24,11 @@ final class TrialScopeUITests: XCTestCase {
             if element.exists && element.isHittable { return }
             app.swipeUp()
         }
+        // Content may have shrunk and left the target above the viewport.
+        for _ in 0..<10 {
+            if element.exists && element.isHittable { return }
+            app.swipeDown()
+        }
     }
 
     private func capture(_ name: String) {
@@ -61,6 +66,8 @@ final class TrialScopeUITests: XCTestCase {
         capture("03-study-details")
         save.tap()
         XCTAssertEqual(save.label, "Remove from saved")
+        app.swipeUp()
+        capture("11-study-criteria")
         let edit = app.buttons["editNoteButton"]
         scrollTo(edit)
         edit.tap()
@@ -110,6 +117,8 @@ final class TrialScopeUITests: XCTestCase {
         capture("07-recruiting-filter")
         app.buttons["applyFiltersButton"].tap()
         XCTAssertTrue(app.staticTexts["1 filter applied"].waitForExistence(timeout: 3))
+        XCTAssertTrue(app.buttons["trial-DEMO-001"].waitForExistence(timeout: 5))
+        capture("12-filters-applied")
     }
 
     func testFailureAndRecovery() {

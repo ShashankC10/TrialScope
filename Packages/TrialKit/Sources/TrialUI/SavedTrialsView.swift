@@ -13,7 +13,7 @@ struct SavedTrialsView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 22) {
-                SectionTitle(title: "Worth a closer look.", subtitle: "Your saved studies and notes, available offline.")
+                SectionTitle(title: "Worth a closer look", subtitle: uniqueSaved.isEmpty ? nil : "\(uniqueSaved.count) saved · Available offline")
                 if uniqueSaved.isEmpty {
                     ContentUnavailableView("Your shortlist starts here", systemImage: "bookmark",
                                            description: Text("Save a study from Discover to keep its details close at hand."))
@@ -21,7 +21,7 @@ struct SavedTrialsView: View {
                 } else {
                     ForEach(uniqueSaved) { saved in
                         if let trial = saved.trial {
-                            NavigationLink { TrialDetailView(trial: trial) } label: { TrialCard(trial: trial, saved: true) }
+                            NavigationLink { TrialDetailView(trial: trial) } label: { TrialCard(trial: trial, saved: true, note: saved.notes) }
                                 .buttonStyle(.plain).accessibilityIdentifier("saved-\(trial.id)")
                                 .contextMenu {
                                     Button("Remove saved study", role: .destructive) { remove(saved) }
@@ -34,7 +34,7 @@ struct SavedTrialsView: View {
                         }
                     }
                 }
-                DemoNotice()
+                if !uniqueSaved.isEmpty && uniqueSaved.allSatisfy({ $0.trial?.isDemo == true }) { DemoNotice() }
             }.padding(20).readableWidth()
         }.canvas().navigationTitle("Saved studies")
         .alert("Couldn’t remove study", isPresented: Binding(get: { error != nil }, set: { if !$0 { error = nil } })) {

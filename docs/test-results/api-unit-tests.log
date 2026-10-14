@@ -1,0 +1,70 @@
+Building for debugging...
+[1 / 11]
+[2 / 12] TrialCore
+[6 / 16] TrialCore
+[13 / 21] TrialCore
+[15 / 22] TrialCore
+[20 / 24] TrialCoreTests-product
+[26 / 28] TrialCoreTests-product
+[31 / 37] TrialUI
+[42 / 48] TrialUI
+[47 / 51] TrialUI
+[49 / 51] TrialUI
+Build complete! (4.27 secs)
+Test Suite 'All tests' started at 2026-10-14 03:30:49.566.
+Test Suite 'All tests' passed at 2026-10-14 03:30:49.567.
+	 Executed 0 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+◇ Test run started.
+↳ Testing Library Version: 2084
+↳ Target Platform: arm64e-apple-macos14.0
+◇ Suite "SwiftData bookmarks" started.
+◇ Suite "Search state" started.
+◇ Suite "API contract" started.
+◇ Suite "Mock catalog and search" started.
+◇ Test diskStoreSurvivesContainerRecreation() started.
+◇ Test corruptSnapshotDoesNotCrash() started.
+◇ Test configurationRequiresURLAndTestsOverrideIt() started.
+◇ Test newerRequestWinsEvenIfOldServiceIgnoresCancellation() started.
+◇ Test filtersComposeAndRespectAgeBoundaries() started.
+◇ Test saveIsIdempotentAndNotesPersistAcrossContexts() started.
+◇ Test paginationHasNoGapsOrDuplicates() started.
+◇ Test fixtureIntegrity() started.
+◇ Test failureRetryAndPaginationPreserveResults() started.
+◇ Test cancellationStopsSlowRequest() started.
+◇ Test normalizationAndAllTokenMatching() started.
+◇ Test invalidInputsFailExplicitly() started.
+✔ Test configurationRequiresURLAndTestsOverrideIt() passed after 0.001 seconds.
+◇ Test rankEncodesFiltersAndPaginatesOnlyReturnedWindow() started.
+✔ Test fixtureIntegrity() passed after 0.004 seconds.
+✔ Test filtersComposeAndRespectAgeBoundaries() passed after 0.004 seconds.
+✔ Test invalidInputsFailExplicitly() passed after 0.004 seconds.
+✔ Test cancellationStopsSlowRequest() passed after 0.005 seconds.
+✔ Test normalizationAndAllTokenMatching() passed after 0.005 seconds.
+✔ Test paginationHasNoGapsOrDuplicates() passed after 0.005 seconds.
+✔ Suite "Mock catalog and search" passed after 0.005 seconds.
+✔ Test rankEncodesFiltersAndPaginatesOnlyReturnedWindow() passed after 0.006 seconds.
+◇ Test refreshFetchesAgainAndEmptyResultsStopPaging() started.
+✔ Test refreshFetchesAgainAndEmptyResultsStopPaging() passed after 0.001 seconds.
+◇ Test detailDecodesStructuredLocationsAndUnknownValues() started.
+✔ Test detailDecodesStructuredLocationsAndUnknownValues() passed after 0.001 seconds.
+◇ Test presentationFieldsAreReadable() started.
+✔ Test presentationFieldsAreReadable() passed after 0.001 seconds.
+◇ Test blankDetailFieldsUseAvailableFallbacks() started.
+✔ Test blankDetailFieldsUseAvailableFallbacks() passed after 0.001 seconds.
+◇ Test malformedAgeValuesDoNotCrashPresentation() started.
+✔ Test malformedAgeValuesDoNotCrashPresentation() passed after 0.001 seconds.
+◇ Test rejectsMismatchedDetailAndMalformedResponses() started.
+✔ Test rejectsMismatchedDetailAndMalformedResponses() passed after 0.001 seconds.
+◇ Test httpErrorsAndTimeoutsReachCallerWithoutMockFallback() started.
+✔ Test httpErrorsAndTimeoutsReachCallerWithoutMockFallback() passed after 0.001 seconds.
+◇ Test cancelledRequestDoesNotReturnResults() started.
+✔ Test cancelledRequestDoesNotReturnResults() passed after 0.001 seconds.
+✔ Suite "API contract" passed after 0.013 seconds.
+✔ Test diskStoreSurvivesContainerRecreation() passed after 0.031 seconds.
+✔ Test saveIsIdempotentAndNotesPersistAcrossContexts() passed after 0.034 seconds.
+✔ Test corruptSnapshotDoesNotCrash() passed after 0.034 seconds.
+✔ Suite "SwiftData bookmarks" passed after 0.034 seconds.
+✔ Test newerRequestWinsEvenIfOldServiceIgnoresCancellation() passed after 0.141 seconds.
+✔ Test failureRetryAndPaginationPreserveResults() passed after 1.936 seconds.
+✔ Suite "Search state" passed after 1.936 seconds.
+✔ Test run with 21 tests in 4 suites passed after 1.936 seconds.

@@ -4,6 +4,7 @@ public enum RecruitmentStatus: String, Codable, CaseIterable, Sendable {
     case recruiting = "Recruiting"
     case notYetRecruiting = "Not yet recruiting"
     case active = "Active, not recruiting"
+    case unknown = "Not provided"
 }
 
 public enum TrialPhase: String, Codable, CaseIterable, Sendable {
@@ -11,6 +12,7 @@ public enum TrialPhase: String, Codable, CaseIterable, Sendable {
     case phase2 = "Phase 2"
     case phase3 = "Phase 3"
     case observational = "Observational"
+    case unknown = "Not provided"
 }
 
 public struct Trial: Identifiable, Codable, Hashable, Sendable {
@@ -30,8 +32,35 @@ public struct Trial: Identifiable, Codable, Hashable, Sendable {
     public let keywords: [String]
     public let updated: String
 
-    public var location: String { "\(city), \(state)" }
+    // Optional metadata keeps previously saved JSON snapshots decodable.
+    public var apiPhase: String?
+    public var apiStatus: String?
+    public var apiAgeDescription: String?
+    public var rawEligibility: String?
+    public var apiLocations: [String]?
+    public var isDemo: Bool { id.hasPrefix("DEMO-") }
+    public var phaseDescription: String { apiPhase ?? phase.rawValue }
+    public var statusDescription: String { apiStatus ?? status.rawValue }
+    /// Every known study site. Demo studies have one; real registry entries can have dozens.
+    public var sites: [String] {
+        if let apiLocations, !apiLocations.isEmpty { return apiLocations }
+        let single = [city, state].filter { !$0.isEmpty }.joined(separator: ", ")
+        return single.isEmpty ? [] : [single]
+    }
+    public var location: String { sites.first ?? "Not provided" }
+    public var additionalSiteCount: Int { max(sites.count - 1, 0) }
+    /// `keywords` doubles as the condition list when it reproduces `condition`; older snapshots fall back to one entry.
+    public var conditionList: [String] {
+        !keywords.isEmpty && keywords.joined(separator: ", ") == condition ? keywords : [condition]
+    }
+    public var primaryCondition: String { conditionList.first ?? condition }
+    public var additionalConditionCount: Int { max(conditionList.count - 1, 0) }
+    public var hasSummary: Bool {
+        let trimmed = summary.trimmingCharacters(in: .whitespacesAndNewlines)
+        return !trimmed.isEmpty && trimmed != "Not provided"
+    }
     public var ageDescription: String {
+        if let apiAgeDescription { return apiAgeDescription }
         if let maximumAge { return "\(minimumAge)–\(maximumAge) years" }
         return "\(minimumAge)+ years"
     }

@@ -66,6 +66,14 @@ public final class SearchModel {
     }
 
     public func retry() { search(request) }
+
+    /// Stops an in-flight search. Late responses are ignored because the generation changes.
+    public func cancel() {
+        guard state == .loading else { return }
+        task?.cancel()
+        generation = UUID()
+        state = .failed("Search cancelled.")
+    }
     /// Allows deterministic tests and pull-to-refresh to wait for the current operation.
     public func waitForCurrentOperation() async { await task?.value }
 }

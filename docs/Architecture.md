@@ -3,10 +3,13 @@
 ```mermaid
 flowchart TD
     App[App composition root] --> UI[SwiftUI screens]
+    App --> API[APITrialService actor]
     App --> Mock[MockTrialService actor]
     UI --> State[MainActor SearchModel]
     State --> Boundary[TrialService protocol]
     Boundary --> Mock
+    Boundary --> API
+    API --> Server[Configured HTTP backend]
     Mock --> Fixtures[Bundled fictional JSON]
     UI --> Store[TrialStore]
     Store --> Data[SwiftData local snapshots + notes]
@@ -31,9 +34,9 @@ The local store prevents duplicate saves by querying the stable trial ID. We del
 
 ## Integration boundary
 
-A future HTTP-backed `TrialService` should map verified backend DTOs to these domain types. The existing repository's README describes `/rank` and `/trials/{nct_id}`, but their live behavior has not been inspected or tested here. Before adding integration, decide how free-text queries map to a patient profile, whether server pagination exists, how optional fields are represented, and what constitutes a stable snapshot/version.
+`APITrialService` implements the same service boundary using URLSession. It posts searches to `/rank`, caches the returned top-20 window for local paging, and fetches full details from `/trials/{nct_id}`. Saved views read snapshots without networking. See [API configuration, DTO mapping, and limitations](API.md).
 
-Transport errors should be mapped to actionable app errors without logging query text or patient attributes. Add URLProtocol-backed contract tests, response decoding tests, HTTP status/timeout behavior, and cancellation tests when that transport exists. Do not add dummy network calls to the mock app.
+The app selects its service at startup. Normal runs require `API_BASE_URL`; explicit mock mode and UI tests use `MockTrialService`. Missing configuration or a server error never silently selects demo data.
 
 ## Frameworks
 
@@ -43,4 +46,4 @@ Transport errors should be mapped to actionable app errors without logging query
 - Swift Testing covers shared logic; XCTest covers UI flows.
 - CloudKit configuration is optional and requires further implementation and testing.
 
-The mock build makes no network requests and includes no analytics. Searches are not persisted, and shared study details exclude private notes.
+Mock mode makes no network requests and includes no analytics. Searches are not persisted, and shared study details exclude private notes.

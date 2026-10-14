@@ -1,524 +1,416 @@
 [
   {
-    "id": "DEMO-001",
+    "nct_id": "DEMO-001",
     "title": "Exploring a targeted approach to breast cancer",
-    "condition": "Breast Cancer",
-    "summary": "A fictional study comparing a targeted treatment with standard care in adults with HER2-positive breast cancer.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Chicago",
-    "state": "IL",
-    "phase": "Phase 2",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": 75,
-    "inclusion": [
-      "Documented history of breast cancer.",
-      "Age 18–75 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study comparing a targeted treatment with standard care in adults with HER2-positive breast cancer.",
+    "conditions": [
+      "Breast Cancer"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE2",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 75,
+    "locations": [
+      {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "targeted",
-      "therapy",
-      "HER2",
-      "oncology"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of breast cancer.\nAge 18\u201375 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-002",
+    "nct_id": "DEMO-002",
     "title": "Small changes. Better glucose control.",
-    "condition": "Type 2 Diabetes",
-    "summary": "A fictional study exploring whether structured nutrition coaching and activity support improve glucose control.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Austin",
-    "state": "TX",
-    "phase": "Phase 3",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": 80,
-    "inclusion": [
-      "Documented history of type 2 diabetes.",
-      "Age 18–80 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study exploring whether structured nutrition coaching and activity support improve glucose control.",
+    "conditions": [
+      "Type 2 Diabetes"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE3",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 80,
+    "locations": [
+      {
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "diabetes",
-      "glucose",
-      "metabolic",
-      "lifestyle"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of type 2 diabetes.\nAge 18\u201380 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-003",
+    "nct_id": "DEMO-003",
     "title": "New perspectives in lung cancer care",
-    "condition": "Lung Cancer",
-    "summary": "A fictional study evaluating an investigational immunotherapy approach alongside established treatment.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Boston",
-    "state": "MA",
-    "phase": "Phase 2",
-    "status": "Recruiting",
-    "minimumAge": 21,
-    "maximumAge": null,
-    "inclusion": [
-      "Documented history of lung cancer.",
-      "Age 21 years or older.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study evaluating an investigational immunotherapy approach alongside established treatment.",
+    "conditions": [
+      "Lung Cancer"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE2",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 21,
+    "max_age_years": null,
+    "locations": [
+      {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "lung",
-      "cancer",
-      "oncology",
-      "immunotherapy"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of lung cancer.\nAge 21 years or older.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-004",
+    "nct_id": "DEMO-004",
     "title": "Understanding the rhythm of migraine",
-    "condition": "Migraine",
-    "summary": "A fictional observational study examining sleep patterns and headache frequency through a daily diary.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Seattle",
-    "state": "WA",
-    "phase": "Observational",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": 65,
-    "inclusion": [
-      "Documented history of migraine.",
-      "Age 18–65 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional observational study examining sleep patterns and headache frequency through a daily diary.",
+    "conditions": [
+      "Migraine"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": null,
+    "study_type": "OBSERVATIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 65,
+    "locations": [
+      {
+        "city": "Seattle",
+        "state": "WA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "migraine",
-      "headache",
-      "neurology",
-      "sleep"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of migraine.\nAge 18\u201365 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-005",
+    "nct_id": "DEMO-005",
     "title": "Supporting life with heart failure",
-    "condition": "Heart Failure",
-    "summary": "A fictional study evaluating a remote monitoring program for adults living with stable heart failure.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "New York",
-    "state": "NY",
-    "phase": "Phase 3",
-    "status": "Active, not recruiting",
-    "minimumAge": 40,
-    "maximumAge": 85,
-    "inclusion": [
-      "Documented history of heart failure.",
-      "Age 40–85 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study evaluating a remote monitoring program for adults living with stable heart failure.",
+    "conditions": [
+      "Heart Failure"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE3",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "min_age_years": 40,
+    "max_age_years": 85,
+    "locations": [
+      {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "heart",
-      "cardiac",
-      "cardiovascular"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of heart failure.\nAge 40\u201385 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-006",
+    "nct_id": "DEMO-006",
     "title": "A closer look at joint inflammation",
-    "condition": "Rheumatoid Arthritis",
-    "summary": "A fictional early-phase study assessing the tolerability of an investigational approach to joint inflammation.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Denver",
-    "state": "CO",
-    "phase": "Phase 1",
-    "status": "Not yet recruiting",
-    "minimumAge": 18,
-    "maximumAge": 70,
-    "inclusion": [
-      "Documented history of rheumatoid arthritis.",
-      "Age 18–70 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional early-phase study assessing the tolerability of an investigational approach to joint inflammation.",
+    "conditions": [
+      "Rheumatoid Arthritis"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE1",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "NOT_YET_RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 70,
+    "locations": [
+      {
+        "city": "Denver",
+        "state": "CO",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "arthritis",
-      "autoimmune",
-      "inflammation"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of rheumatoid arthritis.\nAge 18\u201370 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-007",
+    "nct_id": "DEMO-007",
     "title": "Recovery and movement after treatment",
-    "condition": "Breast Cancer",
-    "summary": "A fictional observational study of movement, fatigue, and quality of life after breast cancer treatment.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Portland",
-    "state": "OR",
-    "phase": "Observational",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": null,
-    "inclusion": [
-      "Documented history of breast cancer.",
-      "Age 18 years or older.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional observational study of movement, fatigue, and quality of life after breast cancer treatment.",
+    "conditions": [
+      "Breast Cancer"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": null,
+    "study_type": "OBSERVATIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": null,
+    "locations": [
+      {
+        "city": "Portland",
+        "state": "OR",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "breast",
-      "cancer",
-      "recovery",
-      "exercise",
-      "oncology"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of breast cancer.\nAge 18 years or older.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-008",
+    "nct_id": "DEMO-008",
     "title": "Everyday breathing, better understood",
-    "condition": "Asthma",
-    "summary": "A fictional study comparing two monitoring schedules for people with persistent asthma.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "San Diego",
-    "state": "CA",
-    "phase": "Phase 2",
-    "status": "Recruiting",
-    "minimumAge": 12,
-    "maximumAge": 65,
-    "inclusion": [
-      "Documented history of asthma.",
-      "Age 12–65 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study comparing two monitoring schedules for people with persistent asthma.",
+    "conditions": [
+      "Asthma"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE2",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 12,
+    "max_age_years": 65,
+    "locations": [
+      {
+        "city": "San Diego",
+        "state": "CA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "asthma",
-      "respiratory",
-      "breathing"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of asthma.\nAge 12\u201365 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-009",
+    "nct_id": "DEMO-009",
     "title": "Connecting sleep and emotional wellbeing",
-    "condition": "Depression",
-    "summary": "A fictional study assessing a structured sleep program in adults experiencing depression.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Boston",
-    "state": "MA",
-    "phase": "Phase 2",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": 60,
-    "inclusion": [
-      "Documented history of depression.",
-      "Age 18–60 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study assessing a structured sleep program in adults experiencing depression.",
+    "conditions": [
+      "Depression"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE2",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 60,
+    "locations": [
+      {
+        "city": "Boston",
+        "state": "MA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "depression",
-      "mental",
-      "health",
-      "sleep"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of depression.\nAge 18\u201360 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-010",
+    "nct_id": "DEMO-010",
     "title": "Personalizing support for diabetes",
-    "condition": "Type 2 Diabetes",
-    "summary": "A fictional study of personalized digital coaching for adults managing type 2 diabetes.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Chicago",
-    "state": "IL",
-    "phase": "Phase 2",
-    "status": "Not yet recruiting",
-    "minimumAge": 30,
-    "maximumAge": 75,
-    "inclusion": [
-      "Documented history of type 2 diabetes.",
-      "Age 30–75 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study of personalized digital coaching for adults managing type 2 diabetes.",
+    "conditions": [
+      "Type 2 Diabetes"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE2",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "NOT_YET_RECRUITING",
+    "min_age_years": 30,
+    "max_age_years": 75,
+    "locations": [
+      {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "diabetes",
-      "glucose",
-      "metabolic",
-      "coaching"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of type 2 diabetes.\nAge 30\u201375 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-011",
+    "nct_id": "DEMO-011",
     "title": "Movement in everyday life",
-    "condition": "Parkinson’s Disease",
-    "summary": "A fictional observational study using movement diaries to understand day-to-day symptom variation.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "San Francisco",
-    "state": "CA",
-    "phase": "Observational",
-    "status": "Recruiting",
-    "minimumAge": 45,
-    "maximumAge": 85,
-    "inclusion": [
-      "Documented history of parkinson’s disease.",
-      "Age 45–85 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional observational study using movement diaries to understand day-to-day symptom variation.",
+    "conditions": [
+      "Parkinson\u2019s Disease"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": null,
+    "study_type": "OBSERVATIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 45,
+    "max_age_years": 85,
+    "locations": [
+      {
+        "city": "San Francisco",
+        "state": "CA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "parkinson",
-      "parkinsons",
-      "neurology",
-      "movement"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of parkinson\u2019s disease.\nAge 45\u201385 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-012",
+    "nct_id": "DEMO-012",
     "title": "Exploring new options for sensitive skin",
-    "condition": "Eczema",
-    "summary": "A fictional study comparing an investigational topical treatment with a control cream.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Miami",
-    "state": "FL",
-    "phase": "Phase 3",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": 70,
-    "inclusion": [
-      "Documented history of eczema.",
-      "Age 18–70 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study comparing an investigational topical treatment with a control cream.",
+    "conditions": [
+      "Eczema"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE3",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 70,
+    "locations": [
+      {
+        "city": "Miami",
+        "state": "FL",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "eczema",
-      "dermatitis",
-      "skin",
-      "dermatology"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of eczema.\nAge 18\u201370 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-013",
+    "nct_id": "DEMO-013",
     "title": "Measuring quality of life during care",
-    "condition": "Lung Cancer",
-    "summary": "A fictional study collecting quality-of-life questionnaires during lung cancer care.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Chicago",
-    "state": "IL",
-    "phase": "Observational",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": null,
-    "inclusion": [
-      "Documented history of lung cancer.",
-      "Age 18 years or older.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study collecting quality-of-life questionnaires during lung cancer care.",
+    "conditions": [
+      "Lung Cancer"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": null,
+    "study_type": "OBSERVATIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": null,
+    "locations": [
+      {
+        "city": "Chicago",
+        "state": "IL",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "lung",
-      "cancer",
-      "oncology",
-      "quality",
-      "life"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of lung cancer.\nAge 18 years or older.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-014",
+    "nct_id": "DEMO-014",
     "title": "Blood pressure beyond the clinic",
-    "condition": "Hypertension",
-    "summary": "A fictional study examining home blood pressure monitoring and appointment support.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Atlanta",
-    "state": "GA",
-    "phase": "Phase 2",
-    "status": "Recruiting",
-    "minimumAge": 25,
-    "maximumAge": 80,
-    "inclusion": [
-      "Documented history of hypertension.",
-      "Age 25–80 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study examining home blood pressure monitoring and appointment support.",
+    "conditions": [
+      "Hypertension"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE2",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 25,
+    "max_age_years": 80,
+    "locations": [
+      {
+        "city": "Atlanta",
+        "state": "GA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "hypertension",
-      "blood",
-      "pressure",
-      "cardiovascular"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of hypertension.\nAge 25\u201380 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-015",
+    "nct_id": "DEMO-015",
     "title": "A preventive approach to headache",
-    "condition": "Migraine",
-    "summary": "A fictional study comparing a preventive investigational treatment with a control.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Austin",
-    "state": "TX",
-    "phase": "Phase 3",
-    "status": "Active, not recruiting",
-    "minimumAge": 18,
-    "maximumAge": 65,
-    "inclusion": [
-      "Documented history of migraine.",
-      "Age 18–65 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional study comparing a preventive investigational treatment with a control.",
+    "conditions": [
+      "Migraine"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE3",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "ACTIVE_NOT_RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 65,
+    "locations": [
+      {
+        "city": "Austin",
+        "state": "TX",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "migraine",
-      "headache",
-      "neurology",
-      "prevention"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of migraine.\nAge 18\u201365 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-016",
+    "nct_id": "DEMO-016",
     "title": "Tracking skin health over time",
-    "condition": "Psoriasis",
-    "summary": "A fictional observational study following skin symptoms and patient-reported quality of life.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Minneapolis",
-    "state": "MN",
-    "phase": "Observational",
-    "status": "Recruiting",
-    "minimumAge": 18,
-    "maximumAge": null,
-    "inclusion": [
-      "Documented history of psoriasis.",
-      "Age 18 years or older.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional observational study following skin symptoms and patient-reported quality of life.",
+    "conditions": [
+      "Psoriasis"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": null,
+    "study_type": "OBSERVATIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": null,
+    "locations": [
+      {
+        "city": "Minneapolis",
+        "state": "MN",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "psoriasis",
-      "skin",
-      "dermatology",
-      "autoimmune"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of psoriasis.\nAge 18 years or older.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-017",
+    "nct_id": "DEMO-017",
     "title": "Investigating a new treatment combination",
-    "condition": "Breast Cancer",
-    "summary": "A fictional early-phase study assessing the tolerability of a new treatment combination.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "New York",
-    "state": "NY",
-    "phase": "Phase 1",
-    "status": "Not yet recruiting",
-    "minimumAge": 18,
-    "maximumAge": 70,
-    "inclusion": [
-      "Documented history of breast cancer.",
-      "Age 18–70 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional early-phase study assessing the tolerability of a new treatment combination.",
+    "conditions": [
+      "Breast Cancer"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": "PHASE1",
+    "study_type": "INTERVENTIONAL",
+    "overall_status": "NOT_YET_RECRUITING",
+    "min_age_years": 18,
+    "max_age_years": 70,
+    "locations": [
+      {
+        "city": "New York",
+        "state": "NY",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "breast",
-      "cancer",
-      "oncology",
-      "combination"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of breast cancer.\nAge 18\u201370 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   },
   {
-    "id": "DEMO-018",
+    "nct_id": "DEMO-018",
     "title": "Learning from continuous glucose patterns",
-    "condition": "Type 1 Diabetes",
-    "summary": "A fictional observational study examining glucose patterns in children and adolescents.",
-    "sponsor": "TrialScope Demo Research Network",
-    "city": "Seattle",
-    "state": "WA",
-    "phase": "Observational",
-    "status": "Recruiting",
-    "minimumAge": 8,
-    "maximumAge": 17,
-    "inclusion": [
-      "Documented history of type 1 diabetes.",
-      "Age 8–17 years.",
-      "Able to complete the study visits described in this fictional protocol."
+    "brief_summary": "A fictional observational study examining glucose patterns in children and adolescents.",
+    "conditions": [
+      "Type 1 Diabetes"
     ],
-    "exclusion": [
-      "Participation in another interventional study within the fictional protocol’s restricted period.",
-      "Other criteria require review by the study team."
+    "phase": null,
+    "study_type": "OBSERVATIONAL",
+    "overall_status": "RECRUITING",
+    "min_age_years": 8,
+    "max_age_years": 17,
+    "locations": [
+      {
+        "city": "Seattle",
+        "state": "WA",
+        "country": "United States"
+      }
     ],
-    "keywords": [
-      "diabetes",
-      "glucose",
-      "pediatric",
-      "children",
-      "metabolic"
-    ],
-    "updated": "2026-10-01"
+    "criteria_inclusion": "Documented history of type 1 diabetes.\nAge 8\u201317 years.\nAble to complete the study visits described in this fictional protocol.",
+    "criteria_exclusion": "Participation in another interventional study within the fictional protocol\u2019s restricted period.\nOther criteria require review by the study team.",
+    "last_updated": "2026-10-01"
   }
 ]
