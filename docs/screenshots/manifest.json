@@ -3,70 +3,84 @@
     "file": "01-discover.png",
     "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774726.722,
+    "timestamp": 1791966311.453,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "02-search-results.png",
     "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774731.365,
+    "timestamp": 1791966315.268,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "03-study-details.png",
     "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774733.393,
+    "timestamp": 1791966317.319,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "04-saved-studies.png",
     "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774744.014,
+    "timestamp": 1791966327.448,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "05-saved-notes.png",
     "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774747.622,
+    "timestamp": 1791966329.871,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "06-filter-validation.png",
     "test": "TrialScopeUITests/testFiltersValidateAge()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774698.625,
+    "timestamp": 1791966264.23,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "07-recruiting-filter.png",
     "test": "TrialScopeUITests/testFiltersValidateAge()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774702.834,
+    "timestamp": 1791966269.279,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "08-empty-results.png",
     "test": "TrialScopeUITests/testNoResultsAndReset()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774715.217,
+    "timestamp": 1791966283.779,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "09-service-error.png",
     "test": "TrialScopeUITests/testFailureAndRecovery()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774676.257,
+    "timestamp": 1791966219.724,
     "source": "Unmodified XCTest screenshot attachment"
   },
   {
     "file": "10-recovered-results.png",
     "test": "TrialScopeUITests/testFailureAndRecovery()",
     "device": "iPhone 18 Pro",
-    "timestamp": 1791774687.912,
+    "timestamp": 1791966247.581,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "11-study-criteria.png",
+    "test": "TrialScopeUITests/testSearchSaveNoteAndRemove()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791966320.064,
+    "source": "Unmodified XCTest screenshot attachment"
+  },
+  {
+    "file": "12-filters-applied.png",
+    "test": "TrialScopeUITests/testFiltersValidateAge()",
+    "device": "iPhone 18 Pro",
+    "timestamp": 1791966272.705,
     "source": "Unmodified XCTest screenshot attachment"
   }
 ]

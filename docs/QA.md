@@ -39,3 +39,23 @@ Project syntax and privacy manifest passed `plutil -lint`.
 - Saved 10 original XCTest screenshots in [the gallery](screenshots/README.md). Discover, filters, and failure screenshots were visually inspected.
 - Machine-readable UI results: [ui-summary.json](test-results/ui-summary.json). Package test output: [swift-test.log](test-results/swift-test.log).
 - The manual device checklist above remains pending; physical-device, iPad, VoiceOver, and CloudKit verification are not claimed.
+
+### API client update — October 14, 2026
+
+- Local Swift suite: **18 tests passed** (11 existing logic/persistence tests and 7 API contract tests).
+- HTTP tests use injected URLProtocol responses; no live backend is required.
+- iOS app and UI-test targets compiled successfully. The broader UI run was stopped at the user's request; the earlier four passing UI tests above describe the previous mock-only build.
+- Full simulator, physical-device, and running-backend validation of this update is deferred.
+- The port 8000 health probe found no running backend. See [API setup](API.md).
+
+### UI overhaul — October 14, 2026
+
+- Redesigned Discover (compact header, inline search, filter chips, skeleton loading with cancel), cards, study details (toolbar save, readable eligibility, collapsible site list and original criteria), and saved cards with note previews. Age, site, and condition formatting for live registry data was fixed.
+- Local Swift suite: **19 tests passed**, including a new presentation-formatting test.
+- iPhone 18 Pro simulator, iOS 27.0 (mock mode): **4 UI tests passed, 0 failures**. `ui-summary.json` is from this run.
+- Gallery now has 12 original screenshots, including eligibility criteria and applied filter chips. Discover, results, details, saved, and filter states were visually inspected.
+- Still pending: physical device, iPad, VoiceOver, largest text size, dark mode review, and a live-backend run. Note: `swift test` failed codesigning inside `Documents` because of extended attributes; use `--scratch-path` outside the repo.
+
+### Response-mapping review — October 14, 2026
+
+Fixed blank title/description fallback handling and guarded age formatting against out-of-range numeric values. Added regression tests for both. All **21 local tests passed**. No simulator or live-backend tests were run for this review.

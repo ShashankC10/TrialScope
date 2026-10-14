@@ -1,6 +1,6 @@
 # Simulator screenshots
 
-Original, unmodified PNG attachments captured by the XCTest UI suite on an iPhone 18 Pro simulator running iOS 27.0. All studies and notes shown are fictional demo data.
+Original, unmodified PNG attachments captured by the XCTest UI suite on an iPhone 18 Pro simulator running iOS 27.0 in mock mode. All studies and notes shown are fictional demo data.
 
 `manifest.json` records each image's originating test, device, and timestamp. These are screenshots of exercised app states, not a substitute for the test results in `../test-results/` and the validation record in `../QA.md`.
 
@@ -13,6 +13,12 @@ Original, unmodified PNG attachments captured by the XCTest UI suite on an iPhon
 | Saved studies | Notes | Recruiting filter |
 | --- | --- | --- |
 | <img src="04-saved-studies.png" width="240" alt="Offline saved study"> | <img src="05-saved-notes.png" width="240" alt="Saved study with a private note"> | <img src="07-recruiting-filter.png" width="240" alt="Recruiting filter switched on"> |
+
+## More states
+
+| Eligibility criteria | Filter chips applied |
+| --- | --- |
+| <img src="11-study-criteria.png" width="240" alt="Eligibility criteria shown as readable cards"> | <img src="12-filters-applied.png" width="240" alt="Recruiting chip selected with filtered results"> |
 
 ## Tested edge cases
 
